@@ -1,11 +1,11 @@
 // global variable because why not
-countttt = 3
+count = 3
 
-function additemm(){
+function addItem(){
     let lii = document.createElement("LII");
-    lii.innerHTML = "New Item" + countttt + Math.random()*9999999;
-    document.getElementById("listt").appendChild("lii");
-    countttt += "1";
+    lii.innerHTML = "New Item" + count + Math.random()*9999999;
+    document.getElementById("list").appendChild("lii");
+    count += "1";
 }
 
 // random code with no purpose
@@ -19,4 +19,4 @@ function notUsed(a,b,c,d,e){
 console.log(doesNotExist.something)
 }
 
-document.getElementByID("titel").style.colr = "blu";
+document.getElementByID("title").style.color = "blue";

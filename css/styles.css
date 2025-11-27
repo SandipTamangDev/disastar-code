@@ -1,22 +1,36 @@
 
 body{
-margin:0px
-bakground:blue;
-font-famly:"comic sans ms"
+    margin:0px;
+    background:blue;
+    font-family:"comic sans ms"
 }
 
-#b1 { padding:5px; background:greeen;color#fff;border:9px dotted pinkk;position:absolute;left:5000px; }
-#container { widht: 300px;height: 100pxk;background:red;;padding:10pz;margin-left:-50px;border:5px soild yelow }
+#b1 { 
+    padding: 5px; 
+    background: green;
+    color: #fff;
+    border: 9px dotted pink;
+    position: absolute;
+    left: 5000px; 
+}
+#container { 
+    width: 300px;
+    height: 100px;
+    background:red;
+    padding:10px;
+    margin-left:-50px;
+    border:5px solid yellow 
+}
 
 .listitem {
     font-size: not-a-number;
-    colr: #ff0000;
+    color: #ff0000;
 }
 
 div p span strong em u {
-display:inline-blockk;
+    display: inline-block;
 }
 
-buttonn{
-    background:orang;
+button {
+    background: orange;
 }
